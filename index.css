@@ -121,27 +121,51 @@ border-color: transparent;
 .box{
     display:flex;
     flex-direction: row;
-    background-color:blue;
+    background-color:transparent;
     justify-content: space-between;
     width:100%;
+}
+
+.Andi{
+font-size: 30px;
+display:flex;
+flex-direction: row;
+}
+.Founder{
+font-size: 20px;
+display:flex;
+flex-direction: row;
+}
+.Web{
+    font-size: 10px;
+    display:flex;
+    flex-direction: row;
 }
 
 .der{
     display:flex;
     flex-direction: column;
     width: 50%;
-    background-color:salmon;
+    background-color:transparent;
 } /*if you look closely you'll see the names are inverted, this 
 was on accident because I'm dsylecix*/
 .izq{
     display:flex;
     flex-direction: column;
     width: 25%;
-    background-color:green;
+    background-color:transparent;
 }
 
 .space{
     display: flex;
     flex-direction: row;
-    text-align: right;
+    justify-content:flex-end;
+
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 60px;
+
 }
