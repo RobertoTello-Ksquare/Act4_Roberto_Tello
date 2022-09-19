@@ -1,0 +1,8 @@
+html {
+    background-color: rgb(248, 242, 242);
+    text-align: center;
+    background-image: url("stock.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
