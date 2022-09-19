@@ -6,62 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activity</title>
 </head>
-<body>
+<body style="font-family:verdana">
     <header>
         <link rel="stylesheet" type="text/css" href="index.css">
-        <h1>Gorillaz Survey</h1>
+        <h1>Welcome back</h1>
+        <h4>Welcome back! Please enter your details.</h4>
     </header>
     <form> 
         <div class="form-element">
-            <label for="name"> What's your name?</label>
-            <input type="text" name="What's your first name?" id="name">
+            <label for="text-area">Email</label><br>
+            <textarea name="comment" id="text-area" cols="30" rows="1"
+            placeholder="Enter your email" ></textarea>
         </div>
 
         <div class="form-element">
-            <label for="mail"> Write your email</label>
-            <input type="text" mail="Write your email" id="mail">
+            <label  for="text-area"></label> Password</label><br>
+            <textarea name="comment" id="text-area" cols="30" rows="1"
+            placeholder="········" ></textarea>
         </div>
 
-        <div class="form-element">
-            <label for="Age">Age?</label>
-            <input type="number" name="number" id="Age" placeholder="Write you age(Just Numbers)"/>
-        </div>
-
-        <div class="form-element">
-            <p> Do you listen to Gorillaz?</p>
-                <label for="radioY" >
-                <input type="radio" id="radioY" name="radio" value="yes">Yes</input>
-                </label>
-                <label for="radioN" >
-                    <input type="radio" id="radioN" name="radio" value="no">No</input>
-                    </label>
-        </div>
-
-        <div class="form-element">
-            <label for="select">On a scale of 0 to 5
-                how much do you like Gorillaz? (5 being the highest rank)
-            </label>
-            <select name="selected" id="select">
-                <option value="null">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>                
-                <option value="5">5</option>
-            </select>
-        </div>
-        
-        <div class="form-element">
-            <label for="text-area">Why do you like or don't like Gorillaz?</label><br>
-            <textarea name="comment" id="text-area" cols="60" rows="10"
-            placeholder="Why do you like/dont like Gorillaz?" ></textarea>
-        </div>
 
         <div class="form-element">
             <label for="Input">
-                <input type="checkbox" name="box" id="Input">I would like to take another Survey</input>
+                <input type="checkbox" name="box" id="Input">Remember for 30 days</input>
             </label>
         </div>
+
+        <button type="sign in" value="sign in">
+            Forgot Password
+        </button>
+
+        <button type="sign in" value="sign in">
+            Sign in
+        </button>
+
      </form>
 </body>
 </html>
