@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+</head>
+<body>
+    <header>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <h1>Gorillaz Survey</h1>
+    </header>
+    <form> 
+        <div class="form-element">
+            <label for="name"> What's your name?</label>
+            <input type="text" name="What's your first name?" id="name">
+        </div>
+
+        <div class="form-element">
+            <label for="mail"> Write your email</label>
+            <input type="text" mail="Write your email" id="mail">
+        </div>
+
+        <div class="form-element">
+            <label for="Age">Age?</label>
+            <input type="number" name="number" id="Age" placeholder="Write you age(Just Numbers)"/>
+        </div>
+
+        <div class="form-element">
+            <p> Do you listen to Gorillaz?</p>
+                <label for="radioY" >
+                <input type="radio" id="radioY" name="radio" value="yes">Yes</input>
+                </label>
+                <label for="radioN" >
+                    <input type="radio" id="radioN" name="radio" value="no">No</input>
+                    </label>
+        </div>
+
+        <div class="form-element">
+            <label for="select">On a scale of 0 to 5
+                how much do you like Gorillaz? (5 being the highest rank)
+            </label>
+            <select name="selected" id="select">
+                <option value="null">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>                
+                <option value="5">5</option>
+            </select>
+        </div>
+        
+        <div class="form-element">
+            <label for="text-area">Why do you like or don't like Gorillaz?</label><br>
+            <textarea name="comment" id="text-area" cols="60" rows="10"
+            placeholder="Why do you like/dont like Gorillaz?" ></textarea>
+        </div>
+
+        <div class="form-element">
+            <label for="Input">
+                <input type="checkbox" name="box" id="Input">I would like to take another Survey</input>
+            </label>
+        </div>
+     </form>
+</body>
+</html>
