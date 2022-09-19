@@ -1,8 +1,147 @@
-html {
-    background-color: rgb(248, 242, 242);
+body{
+    font-family:verdana;
+    display: flex;
+    justify-content: center;
+}
+
+.caja{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 800px;
+    width: 1300px;
     text-align: center;
-    background-image: url("stock.png");
-    background-size: 30%;
+}
+
+.C_Encuesta{
+    background-color: white;
+    border-radius: 25px 0px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-element input{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0,0.5);
+}
+.form-element input::placeholder{
+    font-size: 15px;
+}
+#Password::placeholder{
+    font-size: 20px;
+}
+
+.C_Imagen{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/02/86/71/59/1000_F_286715999_tmTejKlAJSQ5y8sZMSbbxXFm4hovp3qZ.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position:center;
+    display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        border-top-right-radius:10px;
+        border-bottom-right-radius: 10px;
+}
+
+.encuesta{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+    text-align: left;
+}
+h4{
+    color:rgb(0, 0, 0,0.5);
+}
+.divisor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sign-in{
+    display: flex;
+    background-color: black;
+    color:azure;
+justify-content: center;
+padding: 10px;
+width:100%;
+border-radius: 10px;
+
+}
+
+.divisor2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.sign{
+    border-radius: 10px;
+background-color: transparent;
+border-color: transparent;
+}
+.sign-in:hover{
+    cursor: pointer;
+}
+.sign:hover{
+    cursor: pointer;
+}
+
+.forgot{
+    background-color: transparent;
+    border-color: transparent;
+}
+.forgot:hover{
+    cursor: pointer;
+}
+
+.comentario{
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    width: 600px;
+    align-items: center;
+    margin:460px 0 0 0;
+    color: azure;
+    backdrop-filter: blur(10px);
+}
+.box{
+    display:flex;
+    flex-direction: row;
+    background-color:blue;
+    justify-content: space-between;
+    width:100%;
+}
+
+.der{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    background-color:salmon;
+} /*if you look closely you'll see the names are inverted, this 
+was on accident because I'm dsylecix*/
+.izq{
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+    background-color:green;
+}
+
+.space{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
 }
